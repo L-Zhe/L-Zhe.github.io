@@ -2,13 +2,9 @@
 
 <script>
 var url = purl();
-if (url.attr('host') == 'blog.l-zhe.com') {
+if (url.attr('host') == "blog.l-zhe.com") {
     var old_url = url.attr('source');
-    var new_url = old_url.replace('blog.l-zhe.com', "139.155.247.104");
-    window.location.replace(new_url); 
-}else if (url.attr('host') == 'blog.l-zhe.com') {
-    var old_url = url.attr('source');
-    var new_url = old_url.replace('blog.l-zhe.com', "139.155.247.104");
+    var new_url = old_url.replace("blog.l-zhe.com", "139.155.247.104");
     window.location.replace(new_url);
 }else {
     window.location.href="http://139.155.247.104";
